@@ -1,0 +1,92 @@
+﻿<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Iframe</title>
+		<meta charset="utf-8" />
+                <meta name="robots" content="noindex">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+                <link rel="icon" type="image/png" href="images/logo.png" />
+                <meta property="og:image" content="images/logo.png" />
+                <meta name="twitter:image" content="images/logo.png" />
+
+<style>
+
+#panel {
+  display: none;
+}
+
+
+.antispam { display:none;}
+
+
+</style>
+	
+	<script type="text/javascript">
+		var first = "info";
+		var last = "freakout.com";
+	</script>
+
+
+	</head>
+	<body>
+                     
+		             
+					
+
+                                      <div class="box" style="margin-right:7%; margin-left:7%;">
+						 <form method="post" action="submit.php">
+                                                        <p class="antispam">Leave this empty:<br /><input name="url" /></p>
+							<div class="field half first"><input required type="text" Name="Name" placeholder="Name *" /></div>
+							<div class="field half"><input required type="email" name="Email" placeholder="Email *" /></div>
+                                                        <div class="field half first"><input type="date" name="Termin der Veranstaltung" placeholder="Event Datum" /></div>
+                                                        <div class="field half"><input type="text" pattern="[0-9]*" name="Telefon" placeholder="Telefon" /></div>
+							<div class="field"><textarea required name="Nachricht" placeholder="Anfrage / Nachricht *" rows="6"></textarea></div>
+                                                        
+                                                        <center>
+                                                        <div class="field">
+							<label for="Datenschutz">Es gelten folgende <span style="border-bottom: dotted 0px;"><a href="privacy.html" target="_blank">Datenschutzbestimmungen</a></span>.</label>
+							</div>
+
+                                                        <p class="flip" style="text-decoration: underline; cursor:pointer;" onclick="myFunction()">Ja, ich bin damit einverstanden.</p>
+
+							<div id="panel">
+
+ 							<ul class="actions">
+								<li><input type="submit" value="Nachricht Senden" /></li>
+							</ul>
+  
+							</div>
+
+                                                        </center>
+
+							<script>
+							function myFunction() {
+  							document.getElementById("panel").style.display = "block";
+							}
+							</script>
+
+
+
+						</form>
+                                       </div>
+			
+
+				
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+
+	</body>
+</html>
